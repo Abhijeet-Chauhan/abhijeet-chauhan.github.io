@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Abhijeet Chauhan's Portfolio</title>
   <style>
+    /* General Styles */
     body {
       font-family: Arial, sans-serif;
       margin: 0;
@@ -16,7 +17,7 @@
       min-height: 100vh;
       padding-top: 20px;
     }
-    
+
     .container {
       width: 80%;
       display: flex;
@@ -24,7 +25,7 @@
       margin: 0 auto;
     }
 
-    /* Left Column (scrollable) */
+    /* Left Column */
     .left-column {
       flex: 2;
       padding: 20px;
@@ -88,6 +89,23 @@
       color: #555;
     }
 
+    /* Header Section */
+    h1 {
+      font-size: 32px;
+      margin-bottom: 15px;
+      color: #333;
+    }
+
+    /* Link Styling */
+    a {
+      color: #0077b5;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
     /* Responsive Design */
     @media (max-width: 768px) {
       .container {
@@ -100,6 +118,11 @@
 
       .right-column {
         margin-top: 20px;
+      }
+
+      .right-column img {
+        width: 120px;
+        height: 120px;
       }
     }
   </style>
