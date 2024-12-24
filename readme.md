@@ -52,7 +52,7 @@
 
   <!-- Right Column (Image and Bio) -->
   <div style="flex: 1; text-align: center; padding: 20px;">
-    <img src="https://github.com/username/portfolio/raw/main/profile.jpg" alt="Profile Image" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;"/>
+    <img src="https://github.com/username/portfolio/raw/main/image.png" alt="Profile Image" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;"/>
     <h2>Abhijeet Chauhan</h2>
     <p>Age: 22</p>
     <p><i>ML Engineer | Data Scientist | AI Developer</i></p>
